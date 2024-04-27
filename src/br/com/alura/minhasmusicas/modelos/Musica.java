@@ -1,9 +1,18 @@
-package br.com.alura.minhasmusicas;
+package br.com.alura.minhasmusicas.modelos;
 
-public class Musica {
+public class Musica extends Audio{
+    private  String titulo;
     private String album;
     private String artista;
     private String genero;
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 
     public String getAlbum() {
         return album;

@@ -1,6 +1,8 @@
-package br.com.alura.minhasmusicas;
+package br.com.alura.minhasmusicas.modelos;
 
-public class Podcast extends Audio{
+import br.com.alura.minhasmusicas.modelos.Audio;
+
+public class Podcast extends Audio {
     private String apresentador;
     private String descricao;
 
